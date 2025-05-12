@@ -1,1 +1,53 @@
 /build
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+.gradle/
+!gradle-wrapper.jar
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
+
+# Android
+*.apk
+*.ap_
+captures/
+output.json
+
+# Firebase
+firebase-debug.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Jetpack Compose
+*.lock
+*.hprof
+
+# Environment files
+.env
+
+# Others
+node_modules/
